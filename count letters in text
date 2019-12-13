@@ -1,9 +1,6 @@
 str = input()
 arr = str.split(" ")
-
+x = 0
 for i in arr:
-    sortedArr = sorted(i)
-    add = ""
-    for y in sortedArr:
-        add += y
-    print(add)
+    x += len(i)
+print(x)
